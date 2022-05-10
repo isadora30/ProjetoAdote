@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Sarala&display=swap')
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #0E9BA4 16.62%, #FF985F 85.61%);
+
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.cabecalho-imagem-1 {
+    height: 85px;
+}
+
+.cabecalho-frase-BV {
+    font-family: 'Sarala', sans-serif;
+    color: rgba(255, 242, 231, 1);
+    font-size: 24px;
+}
+
+.meiodapagina {
+    margin-bottom: 10px;
+    border-top: 0.5px solid rgba(255, 242, 231, 1);
+}
+
+.mp-frase-h1 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgba(255, 242, 231, 1);
+}
+
+.imagens-CIMA {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.imagens-BAIXO {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+
+.rodape {
+    padding: 20px;
+    border-top: 0.5px solid rgba(255, 242, 231, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rodape-wpp {
+display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.rodape-frase-1 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 242, 231, 1);
+}
+
+.rodape-inta {
+    display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 25px;
+    }
